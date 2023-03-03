@@ -28,8 +28,9 @@ gem "sinatra-activerecord", "~> 2.0"
 # https://github.com/ruby/rake
 gem "rake", "~> 13.0"
 
-# Provides functionality to interact with a SQLite3 database
-gem "sqlite3", "~> 1.4.2"
+
+gem "pg"
+
 
 # Require all files in a folder
 gem "require_all", "~> 3.0"
@@ -41,6 +42,9 @@ gem "puma"
 # These gems will only be used when we are running the application locally
 group :development do
   gem "pry", "~> 0.14.1"
+
+  # Provides functionality to interact with a SQLite3 database
+  gem "sqlite3", "~> 1.4.2"
 
   # Automatically reload when there are changes
   # https://github.com/alexch/rerun
