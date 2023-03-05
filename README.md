@@ -12,7 +12,7 @@
 
 ## Back-end Application
 This application has been deployed to render and is accessible through the following link:<br>
-https://wamae-pet-finder.onrender.com/[https://wamae-pet-finder.onrender.com/]<br>
+[https://wamae-pet-finder.onrender.com/](https://wamae-pet-finder.onrender.com/)<br>
 Alernatively, one can use the application by following the following steps:
 1. Fork and clone this repository into your local machine
 2. Open terminal and cd into the reposository
